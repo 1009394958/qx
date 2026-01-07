@@ -7,7 +7,7 @@ if (body.data) {
     body.data.is_vip = 1;
     
     // 将 vip_expire_date 修改为 999999，表示 VIP 永久有效
-    body.data.vip_expire_date = 99999999999;
+    body.data.vip_expire_date = 2099-12-31 01:03:19;
 }
 
 // 返回修改后的响应体
